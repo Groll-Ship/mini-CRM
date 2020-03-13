@@ -229,6 +229,19 @@
         "runtime": {
           "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll": {}
         }
+      },
+      "Statuses/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "System.Data.SqlClient": "4.8.1"
+        },
+        "compile": {
+          "bin/placeholder/Statuses.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Statuses.dll": {}
+        }
       }
     }
   },
@@ -890,11 +903,17 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "Statuses/1.0.0": {
+      "type": "project",
+      "path": "../ExecuteExceptions/Statuses.csproj",
+      "msbuildProject": "../ExecuteExceptions/Statuses.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
       "NETStandard.Library >= 2.0.3",
+      "Statuses >= 1.0.0",
       "System.Data.SqlClient >= 4.8.1",
       "System.Threading.Tasks.Extensions >= 4.5.3"
     ]
@@ -924,7 +943,11 @@
       },
       "frameworks": {
         "netstandard2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\User\\Desktop\\ProjectCRM\\Mini-CRM\\ExecuteExceptions\\Statuses.csproj": {
+              "projectPath": "C:\\Users\\User\\Desktop\\ProjectCRM\\Mini-CRM\\ExecuteExceptions\\Statuses.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

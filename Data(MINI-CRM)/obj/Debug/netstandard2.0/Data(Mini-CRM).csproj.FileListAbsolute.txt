@@ -6,3 +6,14 @@ C:\Users\User\source\repos\Mini-CRM\Data(MINI-CRM)\obj\Debug\netstandard2.0\Data
 C:\Users\User\source\repos\Mini-CRM\Data(MINI-CRM)\bin\Debug\netstandard2.0\Data(Mini-CRM).pdb
 C:\Users\User\source\repos\Mini-CRM\Data(MINI-CRM)\obj\Debug\netstandard2.0\Data(Mini-CRM).dll
 C:\Users\User\source\repos\Mini-CRM\Data(MINI-CRM)\obj\Debug\netstandard2.0\Data(Mini-CRM).pdb
+C:\Users\User\Desktop\ProjectCRM\Mini-CRM\Data(MINI-CRM)\bin\Debug\netstandard2.0\Data(Mini-CRM).deps.json
+C:\Users\User\Desktop\ProjectCRM\Mini-CRM\Data(MINI-CRM)\bin\Debug\netstandard2.0\Data(Mini-CRM).dll
+C:\Users\User\Desktop\ProjectCRM\Mini-CRM\Data(MINI-CRM)\bin\Debug\netstandard2.0\Data(Mini-CRM).pdb
+C:\Users\User\Desktop\ProjectCRM\Mini-CRM\Data(MINI-CRM)\obj\Debug\netstandard2.0\Data(Mini-CRM).csprojAssemblyReference.cache
+C:\Users\User\Desktop\ProjectCRM\Mini-CRM\Data(MINI-CRM)\obj\Debug\netstandard2.0\Data(Mini-CRM).AssemblyInfoInputs.cache
+C:\Users\User\Desktop\ProjectCRM\Mini-CRM\Data(MINI-CRM)\obj\Debug\netstandard2.0\Data(Mini-CRM).AssemblyInfo.cs
+C:\Users\User\Desktop\ProjectCRM\Mini-CRM\Data(MINI-CRM)\obj\Debug\netstandard2.0\Data(Mini-CRM).dll
+C:\Users\User\Desktop\ProjectCRM\Mini-CRM\Data(MINI-CRM)\obj\Debug\netstandard2.0\Data(Mini-CRM).pdb
+C:\Users\User\Desktop\ProjectCRM\Mini-CRM\Data(MINI-CRM)\bin\Debug\netstandard2.0\Statuses.dll
+C:\Users\User\Desktop\ProjectCRM\Mini-CRM\Data(MINI-CRM)\bin\Debug\netstandard2.0\Statuses.pdb
+C:\Users\User\Desktop\ProjectCRM\Mini-CRM\Data(MINI-CRM)\obj\Debug\netstandard2.0\Data(Mini-CRM).csproj.CopyComplete

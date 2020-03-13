@@ -8,9 +8,27 @@ namespace Data_MINI_CRM_.DatabaseConnection
 {
     public class Connect
     {
-        public async Task<SqlConnection> ConnectionOpen(string connectionString)
+        private static string StringConnection;
+        private static Connect connect = null;
+        private Connect()
         {
-            SqlConnection connection = new SqlConnection(connectionString);
+        }
+        public static Connect GetConnect(string _stringConnection)
+        {
+            if (connect == null)
+            {
+                connect = new Connect();
+                StringConnection = _stringConnection;
+            }
+            else
+                return connect;
+            return connect;
+        }
+
+        public async Task<SqlConnection> ConnectionOpen()
+        {
+
+            SqlConnection connection = new SqlConnection(StringConnection);
             try
             {
                 await connection.OpenAsync();

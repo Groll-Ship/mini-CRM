@@ -144,6 +144,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Statuses": "1.0.0",
           "System.Data.SqlClient": "4.8.1",
           "System.Threading.Tasks.Extensions": "4.5.3"
         },
@@ -152,6 +153,19 @@
         },
         "runtime": {
           "bin/placeholder/Data(Mini-CRM).dll": {}
+        }
+      },
+      "Statuses/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "System.Data.SqlClient": "4.8.1"
+        },
+        "compile": {
+          "bin/placeholder/Statuses.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Statuses.dll": {}
         }
       }
     }
@@ -509,6 +523,11 @@
       "type": "project",
       "path": "../Data(MINI-CRM)/Data(Mini-CRM).csproj",
       "msbuildProject": "../Data(MINI-CRM)/Data(Mini-CRM).csproj"
+    },
+    "Statuses/1.0.0": {
+      "type": "project",
+      "path": "../ExecuteExceptions/Statuses.csproj",
+      "msbuildProject": "../ExecuteExceptions/Statuses.csproj"
     }
   },
   "projectFileDependencyGroups": {
