@@ -7,7 +7,7 @@ using System.Collections.Generic;
 using System.Data.SqlClient;
 using System.Threading.Tasks;
 
-namespace Mini_CRM.Exceptions
+namespace Mini_CRM
 {
     class Program
     {
@@ -31,12 +31,13 @@ namespace Mini_CRM.Exceptions
             UserStorage storage = new UserStorage(sql.Result);
             UserDataModel model = new UserDataModel()
             {
-                Login = "Groll",
+                Id = 21,
+                Login = "TestUpdate_1",
                 Password = "123QWE",
                 Role = "Admin",
                 UserId = 1
             };
-            ModelStatusInsert status = storage.InsertUser(model);
+            ModelStatusUpdate status = storage.UpdateUser(model);
 
 
            //ModelStatusDelete status = storage.DeleteUser(2);
@@ -46,7 +47,7 @@ namespace Mini_CRM.Exceptions
             //    Console.WriteLine(item.Id + item.Login + item.Role + item.UserId + item.Password);
             //}
 
-            Console.WriteLine(status.IdModel.ToString() + " " + status.Status);
+            Console.WriteLine(status.IdModel.ToString() + " " + status.Status + " " + status.Description);
             //Console.WriteLine(status.Status);
             connect.ConnectionClose(sql.Result);
         }

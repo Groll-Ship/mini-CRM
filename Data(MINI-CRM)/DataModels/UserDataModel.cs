@@ -11,5 +11,13 @@ namespace Data_MINI_CRM_.DataModels
         public string Role { get; set; }
         public int UserId { get; set; }
         public string Password { get; set; }
+        public enum Fields
+        {
+            Id, 
+            Login,
+            Role,
+            UserId,
+            Password
+        }
     }
 }

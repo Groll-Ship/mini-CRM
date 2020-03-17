@@ -40,3 +40,5 @@ C:\Users\User\Desktop\ProjectCRM\Mini-CRM\ConsoleApp1\obj\Debug\netcoreapp3.1\Co
 C:\Users\User\Desktop\ProjectCRM\Mini-CRM\ConsoleApp1\obj\Debug\netcoreapp3.1\Console.pdb
 C:\Users\User\Desktop\ProjectCRM\Mini-CRM\ConsoleApp1\bin\Debug\netcoreapp3.1\Statuses.dll
 C:\Users\User\Desktop\ProjectCRM\Mini-CRM\ConsoleApp1\bin\Debug\netcoreapp3.1\Statuses.pdb
+C:\Users\User\Desktop\ProjectCRM\Mini-CRM\ConsoleApp1\bin\Debug\netcoreapp3.1\Json.dll
+C:\Users\User\Desktop\ProjectCRM\Mini-CRM\ConsoleApp1\bin\Debug\netcoreapp3.1\System.Text.Json.dll
